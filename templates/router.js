@@ -3,38 +3,38 @@ var router = express.Router();
 var {controllerName} = require('../controllers/{controllerName}.js');
 
 /*
- * GET
- */
+* GET
+*/
 router.get('/', function (req, res) {
-    {controllerName}.list(req, res);
+  {controllerName}.list(req, res);
 });
 
 /*
- * GET
- */
+* GET
+*/
 router.get('/:id', function (req, res) {
-    {controllerName}.show(req, res);
+  {controllerName}.show(req, res);
 });
 
 /*
- * POST
- */
+* POST
+*/
 router.post('/', function (req, res) {
-    {controllerName}.create(req, res);
+  {controllerName}.create(req, res);
 });
 
 /*
- * PUT
- */
+* PUT
+*/
 router.put('/:id', function (req, res) {
-    {controllerName}.update(req, res);
+  {controllerName}.update(req, res);
 });
 
 /*
- * DELETE
- */
+* DELETE
+*/
 router.delete('/:id', function (req, res) {
-    {controllerName}.remove(req, res);
+  {controllerName}.remove(req, res);
 });
 
 module.exports = router;
