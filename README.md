@@ -36,7 +36,7 @@ $ npx mongoose-gen -m car -f carDoor:number,color -r
 
 Generates a Mongoose model, a REST controller and Express router :
 ```bash
-$ mongoose-gen
+$ npx mongoose-gen
 Model Name : car
 Available types : string, number, date, boolean, array
 Field Name (press <return> to stop adding fields) : door
