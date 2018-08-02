@@ -5,14 +5,14 @@ It’s a mongoose model, REST controller and Express router code generator for E
 
 ## Installation
 ```bash
-$ npm install -g express-mongoose-generator
+$ npm install --save-dev kevincolten/express-mongoose-generator
 ```
 
 ## Usage
 ### Non-Interactive mode
 Generates a Mongoose model, a REST controller and Express router :
 ```bash
-$ mongoose-gen -m car -f carDoor:number,color -r
+$ npx mongoose-gen -m car -f carDoor:number,color -r
         create: ./models/cardModel.js
         create: ./routes/cards.js
         create: ./controllers/cardController.js
